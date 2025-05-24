@@ -7,7 +7,6 @@ type RootStackParamList = {
   ListaSetor: undefined;
   DetalhesSetor: undefined;
   HomeMenu: undefined;
-  BuscaSetorPorPatio: undefined;
 };
 
 type Props = NativeStackScreenProps<RootStackParamList, "SetorMenu">;
@@ -34,7 +33,7 @@ export default function SetorMenu({ navigation }: Props) {
 
         <TouchableOpacity
           style={styles.botaoPersonalizado}
-          onPress={() => navigation.navigate("BuscaSetorPorPatio")}
+          onPress={() => navigation.navigate("DetalhesSetor")}
         >
           <Text style={styles.textoBotao}>Buscar por Pátio</Text>
         </TouchableOpacity>
