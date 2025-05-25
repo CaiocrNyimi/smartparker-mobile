@@ -19,6 +19,10 @@ O **SmartPark** é um aplicativo mobile desenvolvido com React Native e Expo par
 - Navegação entre telas com React Navigation.
 - Dados mockados e fluxo lógico de uso.
 
+## Protótipo visual:
+
+https://www.figma.com/design/w2DzQPm9ySCVMgN7bWjyso/Smart-Park?node-id=0-1&m=dev&t=ivjlr3zXMCN0tjmu-1
+
 ## Como Rodar o Projeto:
 
 - Pré-requisitos:
